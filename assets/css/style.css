@@ -1,0 +1,246 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --main-color: #dc8377;
+    --secondary-color: #f1cec8;
+    --primary-color: #eae9e7;
+
+}
+
+
+.btn-primary {
+    background-color: var(--main-color) !important;
+    color: white;
+    border: 1px solid var(--main-color) !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(0 0 0);
+}
+
+li.nav-item {
+    margin-left: 14px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* banner section */
+
+#banner {
+    background-color: var(--main-color);
+    padding-bottom: 20px;
+}
+
+#bannertext h1 {
+    margin-top: 130px;
+    font-size: 70px;
+    color: white;
+}
+
+#bannertext p {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#banner-btn {
+    background-color: #FFF;
+    color: black;
+}
+
+#banner-btn-1 {
+
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+
+}
+
+#banner-btn-1:hover {
+
+    color: white;
+    border: 1px solid #000;
+    background-color: black;
+    margin-left: 15px;
+
+}
+
+.women-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/assets/img/Section-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pregnant-women-banner h1 {
+
+    margin-top: 30%;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+#pregnant-women-banner p {
+
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: black;
+
+}
+
+.main-yoga {
+
+    padding: 50px;
+}
+
+#yoga-breathing-bg {
+
+background-color: var(--secondary-color);
+
+padding-bottom: 100px;
+}
+
+#yoga-breating-text h1 {
+
+    margin-top: 120px;
+    font-size: 70px;
+    font-weight: bold;
+
+
+
+}
+
+#yoga-breating-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#yoga-breating-img img {
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+
+#yoga-discount-bg {
+
+    background-color: var(--primary-color);
+    padding-bottom: 20px;
+}
+
+#yoga-discount-text h1 {
+
+    margin-top: 110px;
+    font-size: 70px;
+    font-weight: bold;
+
+
+
+}
+
+#yoga-discount-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#yoga-discount-img img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#galleryheading{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    flex-basis: 50%;
+}
+
+#galleryheading h1 {
+
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#galleryheading p {
+
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+
+}
+
+
+.card-title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card-text {
+
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#yoga-video-bg {
+    padding-top: 30px;
+    background-color: var(--primary-color);
+    padding-bottom: 20px;
+}
+
+#yoga-text h1 {
+
+    margin-top: 80px;
+    font-size: 70px;
+    font-weight: bold;
+
+
+
+}
+
+#yoga-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#yoga-video-img img {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+#footer-text h4 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 28px;
+}
+
+#footer-text p {
+    line-height: 1.8;
+    font-size: 16px;
+    padding-bottom: 80px;
+    color: white;
+
+}
+
+.list-group-item {
+    background-color: #212529;
+    color: white;
+    border: 1px solid white;
+    margin-left: 0px;
+}
+
+#copyright {
+
+    background-color:var(--main-color);
+}

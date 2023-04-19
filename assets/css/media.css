@@ -1,0 +1,289 @@
+@media only screen and (max-width: 600px) {
+
+    div#galleryheading {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        flex-basis: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    div#yoga-discount-text {
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+    }
+
+    div#yoga-discount-text h1 {
+        margin-top: 10px;
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+    div#yoga-breating-text {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    div#yoga-breating-text h1 {
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    div#yoga-breathing-bg {
+        background-color: var(--secondary-color);
+        padding-bottom: 34px;
+    }
+
+    div#yoga-breating-img img {
+        margin-top: 25px;
+        border-radius: 10px;
+    }
+
+    div#banner {
+        padding-left: 35px;
+        flex-wrap: wrap-reverse;
+        padding-right: 35px;
+    }
+
+    div#bannertext h1 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 34px;
+        color: white;
+    }
+
+    div#bannertext p {
+        color: white;
+        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    div#yoga-video-img img {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    div#yoga-text {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 25px;
+        margin-bottom: 20px;
+    }
+
+    div#yoga-text h1 {
+        margin-top: 20px;
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+    div#yoga-text p {
+        font-size: 15px;
+        line-height: 1.8;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+
+    #yoga-breating-text p {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-top: 10px !important;
+        margin-bottom: 20px;
+    }
+
+    div#yoga-discount-img img {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    div#yoga-discount-text p {
+        font-size: 15px;
+        line-height: 1.8;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #galleryheading h1 {
+        text-align: center;
+        font-size: 47px !important;
+        font-weight: bold;
+        margin-bottom: 9px;
+    }
+
+    div#footer-text h4 {
+        padding-top: 30px;
+        padding-bottom: 0px;
+        color: white;
+        font-size: 28px;
+    }
+
+    div#footer-text p {
+        line-height: 1.8;
+        font-size: 16px;
+        padding-bottom: 0px;
+        color: white;
+    }
+
+    .list-group {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 20px;
+        border-radius: 0.25rem;
+    }
+
+    h3.text-center.text-white.pb-2.pt-2.fs-5 {
+        font-size: 14px !important;
+        margin-top: 10px !important;
+    }
+    .card.text-center.mb-sm-5 {
+        margin-bottom: 30px;
+    }
+    .card-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #bannertext h1 {
+        margin-top: 10px !important;
+        font-size: 48px !important;
+        color: white;
+    }
+    img#bannerimg {
+        position: relative;
+        top: 25%;
+    }
+    div#yoga-video-img {
+        flex-direction: column;
+        display: flex;
+        flex-basis: 100%;
+        padding: 30px;
+    }
+    div#yoga-video-img img {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    div#yoga-text {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    #yoga-text h1 {
+        margin-top: 0px !important;
+        font-size: 50px !important;
+        font-weight: bold;
+    }
+    div#yoga-breathing-bg {
+        display: flex;
+        flex-direction: column;
+    }
+    div#yoga-breating-text {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+    #yoga-breating-text h1 {
+        margin-top: 40px !important;
+        font-size: 48px !important;
+        font-weight: bold;
+    }
+    div#yoga-breating-img {
+        width: 100%;
+        text-align: center;
+    }
+    #yoga-breating-img img {
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    #yoga-breathing-bg {
+        background-color: var(--secondary-color);
+        padding-bottom: 50px !important;
+    }
+    #yoga-breating-img img {
+        margin-top: 40px !important;
+        border-radius: 10px;
+    }
+    #yoga-discount-bg {
+        display: flex;
+        flex-direction: column;
+    }
+    div#yoga-discount-img {
+        width: 100%;
+    }
+    div#yoga-discount-text {
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    #yoga-discount-text h1 {
+        margin-top: 0px !important;
+        font-size: 68px !important;
+        font-weight: bold;
+    }
+    #galleryheading {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        flex-basis: 100% !important;
+    }
+    div#main-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    div#footer-text {
+        margin-bottom: 20px;
+        width : 100%;
+    }
+    #footer-text h4 {
+        padding-top: 30px !important;
+        padding-bottom: 0px !important;
+        color: white;
+        font-size: 28px;
+    }
+    #footer-text p {
+        line-height: 1.8;
+        font-size: 16px;
+        padding-bottom: 0px !important;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+   
+   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    #bannertext h1 {
+        margin-top: 30px !important;
+        font-size: 48px !important;
+        color: white;
+    }
+    img#bannerimg {
+        position: relative;
+        top: 10%;
+    }
+    #yoga-text h1 {
+        margin-top: 70px !important;
+        font-size: 48px !important;
+        font-weight: bold;
+    }
+    #yoga-breating-text h1 {
+        margin-top: 120px;
+        font-size: 48px !important;
+        font-weight: bold;
+    }
+    #yoga-discount-text h1 {
+        margin-top: 110px;
+        font-size: 48px !important;
+        font-weight: bold;
+    }
+}
